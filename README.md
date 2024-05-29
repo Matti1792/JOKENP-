@@ -17,7 +17,7 @@ A simple and fun Rock, Paper, Scissors game implemented in Python.
 
 - Python 3
 
-## Exemplo de Uso
+## Example
 
 ```plaintext
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
