@@ -20,7 +20,7 @@ A simple and fun Rock, Paper, Scissors game implemented in Python.
 
 ## Requirements
 
-- Python 3
+- Python
 
 ## Example
 
