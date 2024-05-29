@@ -4,7 +4,12 @@ A simple and fun Rock, Paper, Scissors game implemented in Python.
 
 ## How to Play
 
-1. Clone this repository to your local machine: git clone https://github.com/Matti1792/JOKENP-.git
+1. Clone this repository to your local machine.
+  ```bash
+   git clone https://github.com/Matti1792/JOKENP-.git
+
+  ```
+
 2. Run the `jokenpo.py` script.
 3. Follow the on-screen instructions to choose:
    - [0] ROCK
