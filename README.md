@@ -1,54 +1,40 @@
-# JOKENPÔ GAME
+# Welcome to Jokenpô
 
-Bem-vindo ao Jokenpô, um jogo simples e divertido de Pedra, Papel e Tesoura implementado em Python.
+A simple and fun Rock, Paper, Scissors game implemented in Python.
 
-## Como Jogar
+## How to Play
 
-1. Clone este repositório para a sua máquina local.
-2. Execute o script `jokenpo.py`.
-3. Siga as instruções na tela para escolher:
-   - [0] PEDRA
-   - [1] PAPEL
-   - [2] TESOURA
-4. O jogo irá mostrar a escolha do computador e a sua escolha, determinando o vencedor ou se houve empate.
-5. Após o resultado, você poderá escolher jogar novamente.
+1. Clone this repository to your local machine.
+2. Run the `jokenpo.py` script.
+3. Follow the on-screen instructions to choose:
+   - [0] ROCK
+   - [1] PAPER
+   - [2] SCISSORS
+4. The game will display the computer's choice and your choice, determining the winner or if it's a tie.
+5. After the result, you can choose to play again.
 
-## Requisitos
+## Requirements
 
 - Python 3
-
-## Instalação
-
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/jokenpo.git
-    ```
-2. Navegue até o diretório do projeto:
-    ```bash
-    cd jokenpo
-    ```
-3. Execute o script Python:
-    ```bash
-    python jokenpo.py
-    ```
 
 ## Exemplo de Uso
 
 ```plaintext
-=-==-==-==-==-==-==-==-==-==-==-=
-       JOKENPÔ
-=-==-==-==-==-==-==-==-==-==-==-=
-Suas opções:
-  [ 0 ] PEDRA
-  [ 1 ] PAPEL
-  [ 2 ] TESOURA
-Qual é a sua jogada? 1
-JO
-KEN
-PÔ!!!
-=-==-==-==-==-==-==-==-==-==-==-=
-O computador jogou TESOURA
-Jogador jogou PAPEL
-=-==-==-==-==-==-==-==-==-==-==-=
-COMPUTADOR VENCE
-Quer jogar de novo? [Y/N] 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+       ROCK PAPER SCISSORS
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Your options:
+      [ 0 ] ROCK
+      [ 1 ] PAPER
+      [ 2 ] SCISSORS
+What is your move? 1
+RO
+CK
+PAPER!!!
+=-=-=-=-=-=-=-=-=-=-=-=-
+The computer played PAPER
+Player played PAPER
+=-=-=-=-=-=-=-=-=-=-=-=-
+DRAW
+____________________
+Do you want to play again? [Y/N]
