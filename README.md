@@ -10,7 +10,7 @@ A simple and fun Rock, Paper, Scissors game implemented in Python.
 
   ```
 
-2. Run the `jokenpo.py` script.
+2. Run the `main.py` script.
 3. Follow the on-screen instructions to choose:
    - [0] ROCK
    - [1] PAPER
