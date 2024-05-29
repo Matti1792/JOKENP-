@@ -1,3 +1,4 @@
+import os
 from random import randint
 import time
 import random
@@ -13,7 +14,11 @@ c = {'limpar': '\033[m',
      'magenta': '\033[35m'
      }
 
-
+def clear_screen():
+    if os.name == 'posix':
+        _ = os.system('clear')
+    else:
+        _ = os.system('cls')
 
 def lang() :
     print('''   LANG OPTIONS
@@ -30,6 +35,7 @@ def lang() :
 
 
 def jokenpo_pt():
+    clear_screen()
 
     print('=-' * 11)
     print('       {}JOKENPÔ{}'.format(c['magenta'], c['limpar']))
@@ -100,8 +106,9 @@ def again_pt():
         again_pt()
 
 #=================================================================================================================================================
-        
+        1
 def jokenpo_en():
+    clear_screen()
     print('=-' * 17)
     print('       {}ROCK PAPER SCISSORS{}'.format(c['magenta'], c['limpar']))
     print('=-' * 17)
@@ -114,7 +121,7 @@ def jokenpo_en():
     jogador = int(input('What is your move? '))
     computador = random.randint(0, 2)
 
-    print('{}RO{}'.format(c['vermelho'], c['limpar']))
+    print('{}RO{}'.format(c['vermelho'], c['limpar'])) 
     time.sleep(1)
     print('{}CK{}'.format(c['vermelho'], c['limpar']))
     time.sleep(1)
